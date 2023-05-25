@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+        <record id="l10nam_chart_template" model="account.chart.template">
+            <field name="name">Chart of Accounts Armenia</field>
+            <field name="code_digits">6</field>
+            <field name="complete_tax_set" eval="True"/>
+            <field name="use_anglo_saxon" eval="False"/>
+            <field name="bank_account_code_prefix">204001</field>
+            <field name="cash_account_code_prefix">101001</field>
+            <field name="transfer_account_code_prefix">101000</field>
+            <field name="currency_id" ref="base.AMD"/>
+            <field name="country_id" ref="base.am"/>
+        </record>
+</odoo>

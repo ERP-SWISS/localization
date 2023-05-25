@@ -1,0 +1,5 @@
+"id","name","code","user_type_id/id","chart_template_id/id","reconcile"
+"software_fixed_assets","Software","204001","account.data_account_type_fixed_assets","l10n_am.l10nam_chart_template","False"
+"product_current_assets","Product","101001","account.data_account_type_current_assets","l10n_am.l10nam_chart_template","False"
+"erp_liquidity_transfer","Open ERP ","101000","account.data_account_type_liquidity","l10n_am.l10nam_chart_template","True"
+"trade_income","Trade Income","601000","account.data_account_type_revenue","l10n_am.l10nam_chart_template","False"
