@@ -5,7 +5,7 @@
             <field name="code_digits">6</field>
             <field name="complete_tax_set" eval="True"/>
             <field name="use_anglo_saxon" eval="False"/>
-            <field name="bank_account_code_prefix">204001</field>
+            <field name="bank_account_code_prefix">10140</field>
             <field name="cash_account_code_prefix">101001</field>
             <field name="transfer_account_code_prefix">101000</field>
             <field name="currency_id" ref="base.AMD"/>

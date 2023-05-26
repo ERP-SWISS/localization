@@ -2,16 +2,16 @@
 <odoo>
         <record id="vat_in_1A" model="account.tax.template">
         <field name="sequence">10</field>
-        <field name="description">2.5% VAT</field>
-        <field name="name">AM 2.5% VAT </field>
+        <field name="description">14.5% AM TAX</field>
+        <field name="name">>14.5% AM TAX </field>
         <field name="price_include" eval="0" />
-        <field name="amount">2.5</field>
+        <field name="amount">14.5</field>
         <field name="amount_type">percent</field>
         <field name="type_tax_use">sale</field>
         <field name="tax_scope">service</field>
         <field name="active">True</field>
         <field name="chart_template_id" ref="l10nam_chart_template" />
-        <field name="tax_group_id" ref="tax_group_tva_25" />
+        <field name="tax_group_id" ref="tax_group_am_14" />
         <field
             name="invoice_repartition_line_ids"
             eval="[
@@ -23,7 +23,7 @@
                 (0,0,{
                     'factor_percent': 100,
                     'repartition_type': 'tax',
-                    'account_id': ref('software_fixed_assets'),
+                    'account_id': ref('am_software_fixed_assets'),
                 }),
             ]"
         />
@@ -38,7 +38,7 @@
                 (0,0,{
                     'factor_percent': 100,
                     'repartition_type': 'tax',
-                    'account_id': ref('software_fixed_assets'),
+                    'account_id': ref('am_software_fixed_assets'),
                 }),
             ]"
         />
