@@ -1,0 +1,3 @@
+"id","sequence","name","amount","amount_type","type_tax_use","active"
+"tax_am_1","1","Tax 14% sale","14","percent","sale","True"
+"tax_am_2","1","Tax 14% purchase","14","percent","purchase","True"
