@@ -1,7 +1,7 @@
 {
     'name': 'Armenian Localization',
-    'version': '1.0',
-    "category": "Accounting/Localizations/Account Charts",
+    'version': '1.0.1',
+    "category": "Accounting/Localizations",
     'author': 'Erpswiss',
     'website': 'https://www.erpswiss.com',
     'depends': ['base', 'base_address_city', 'account'],
@@ -16,7 +16,6 @@
         "data/account_tax_template.xml",
         'data/account_chart_template_configure.xml',
         'views/res_partner_views.xml',
-
     ],
     'installable': True,
     'auto_install': False,
