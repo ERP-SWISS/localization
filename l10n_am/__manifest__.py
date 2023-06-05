@@ -4,7 +4,7 @@
     "category": "Accounting/Localizations",
     'author': 'Erpswiss',
     'website': 'https://www.erpswiss.com',
-    'depends': ['base', 'base_address_city', 'account'],
+    'depends': ['base','account', 'base_address_extended'],
     'data': [
         'data/account_chart_template_data.xml',
         'data/account.account.template.csv',
@@ -21,3 +21,4 @@
     'auto_install': False,
     'license': 'LGPL-3',
 }
+
