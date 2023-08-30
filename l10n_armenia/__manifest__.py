@@ -17,7 +17,7 @@
         'data/account_chart_template_configure.xml',
         'views/res_partner_views.xml',
     ],
-    'images': ['static/description/Connecter Logo.svg'],
+    'images': ['static/description/Connecter Logo.png'],
     'installable': True,
     'auto_install': False,
     'license': 'LGPL-3',
