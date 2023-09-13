@@ -2,7 +2,7 @@
     'name': 'Armenian Localization',
     'version': '1.0.1',
     "category": "Accounting/Localizations",
-    'author': 'Erpswiss',
+    'author': 'ERP SWISS',
     'website': 'https://www.erpswiss.com',
     'depends': ['base', 'base_address_city', 'account'],
     'data': [
