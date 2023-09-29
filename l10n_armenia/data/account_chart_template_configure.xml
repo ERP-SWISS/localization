@@ -21,6 +21,6 @@
         <field name="account_journal_payment_credit_account_id" ref="am_2211_receivable"/>
     </record>
     <function model="account.chart.template" name="try_loading">
-        <value eval="[ref('l10n_am.l10nam_chart_template')]"/>
+        <value eval="[ref('l10n_armenia.l10nam_chart_template')]"/>
     </function>
 </odoo>
